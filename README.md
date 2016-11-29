@@ -15,44 +15,44 @@ Valid timezone Z and the timezone given below.
 
 # Time zone list
 
-```UTC−12:00, Y
-UTC−11:00, X
-UTC−10:00, W
-UTC−09:30, V†
-UTC−09:00, V
-UTC−08:00, U
-UTC−07:00, T
-UTC−06:00, S
-UTC−05:00, R
-UTC−04:00, Q
-UTC−03:30, P†
-UTC−03:00, P
-UTC−02:00, O
-UTC−01:00, N
-UTC±00:00, Z
-UTC+01:00, A
-UTC+02:00, B
-UTC+03:00, C
-UTC+03:30, C†
-UTC+04:00, D
-UTC+04:30, D†
-UTC+05:00, E
-UTC+05:30, E†
-UTC+05:45, E*
-UTC+06:00, F
-UTC+06:30, F†
-UTC+07:00, G
-UTC+08:00, H
-UTC+08:30, H†
-UTC+08:45, H*
-UTC+09:00, I
-UTC+09:30, I†
-UTC+10:00, K
-UTC+10:30, K†
-UTC+11:00, L
-UTC+12:00, M
-UTC+12:45, M*
-UTC+13:00, M†
+```UTC−12:00, Y<br />
+UTC−11:00, X<br />
+UTC−10:00, W<br />
+UTC−09:30, V†<br />
+UTC−09:00, V<br />
+UTC−08:00, U<br />
+UTC−07:00, T<br />
+UTC−06:00, S<br />
+UTC−05:00, R<br />
+UTC−04:00, Q<br />
+UTC−03:30, P†<br />
+UTC−03:00, P<br />
+UTC−02:00, O<br />
+UTC−01:00, N<br />
+UTC±00:00, Z<br />
+UTC+01:00, A<br />
+UTC+02:00, B<br />
+UTC+03:00, C<br />
+UTC+03:30, C†<br />
+UTC+04:00, D<br />
+UTC+04:30, D†<br />
+UTC+05:00, E<br />
+UTC+05:30, E†<br />
+UTC+05:45, E*<br />
+UTC+06:00, F<br />
+UTC+06:30, F†<br />
+UTC+07:00, G<br />
+UTC+08:00, H<br />
+UTC+08:30, H†<br />
+UTC+08:45, H*<br />
+UTC+09:00, I<br />
+UTC+09:30, I†<br />
+UTC+10:00, K<br />
+UTC+10:30, K†<br />
+UTC+11:00, L<br />
+UTC+12:00, M<br />
+UTC+12:45, M*<br />
+UTC+13:00, M†<br />
 UTC+14:00, M†```
 
 Here I have used only Z, you can update the code for other time zone.
