@@ -1,6 +1,6 @@
 <?php
 
-$date = '0000-00-00T00:00:00+00:00';
+$date = '2016-11-29T08:51:41+00:00';
 
 function convertGMT($date = null)
 {
