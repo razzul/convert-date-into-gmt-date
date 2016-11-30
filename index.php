@@ -6,6 +6,8 @@ function convertGMT($date = null)
 {
     if ($date == null || $date == '') {return false;}
     $date      = str_ireplace("Z", "+00:00", $date);
+    if (strlen($date) > 25){return false;}
+    
     $date_regx = "/^" .
     // Allows years 0000-9999
     "[0-9]{4}" .
@@ -38,11 +40,16 @@ function convertGMT($date = null)
     // Allows :00
     "0[0]|3[0]|4[05]" .
         "$/";
+    
     if (!preg_match($date_regx, $date)) {
         return false;
     }
-    $date = new DateTime($date);
-    $date->setTimezone(new DateTimeZone('GMT'));
+    try {
+        $date = new DateTime($date);
+        $date->setTimezone(new DateTimeZone('GMT'));
+    } catch (Exception $e) {
+        return false;
+    }
     return $date->format('Y-m-d H:i:s');
 }
 
